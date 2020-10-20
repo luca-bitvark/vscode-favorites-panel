@@ -1,6 +1,6 @@
 {
-	"name": "favorites-panel",
-	"displayName": "Favorites panel",
+	"name": "favorites-panel-linux",
+	"displayName": "Favorites panel for Linux",
 	"description": "Use the extension to create a panel with your favorite commands, folders, files, URLs.",
 	"version": "0.7.0",
 	"publisher": "sabitovvt",
@@ -17,10 +17,10 @@
         "favorite files"
     ],
     "icon": "resources/favorites-panel.png",
-    "homepage": "https://github.com/sabitovvt/vscode-favorites-panel",
+    "homepage": "https://github.com/luca-bitvark/vscode-favorites-panel",
     "repository": {
         "type": "git",
-        "url": "https://github.com/sabitovvt/vscode-favorites-panel.git"
+        "url": "https://github.com/luca-bitvark/vscode-favorites-panel.git"
     },
 	"activationEvents": [
 		"onView:favoritesPanel"
