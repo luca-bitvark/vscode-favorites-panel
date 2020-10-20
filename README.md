@@ -1,4 +1,5 @@
 # Favorites Panel
+## Testing simple Linux porting of this good tool
 
 Adds a panel for accessing frequently used files, Internet addresses, programs, commands.
 
