@@ -84,7 +84,7 @@ function runProgram(program: string) {
 function openFile(args: any) {
     const projectPath: string = vscode.workspace.rootPath || '';
     const filePath = args[1] === 'external' ? '' : projectPath;
-    const document = `${filePath}\\${args[0]}`;
+    const document = `${filePath}/${args[0]}`;
 
     vscode.workspace.openTextDocument(document).then(
         (doc) => {
